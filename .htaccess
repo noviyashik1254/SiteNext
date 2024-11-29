@@ -1,0 +1,6 @@
+RewriteEngine On
+AddDefaultCharset utf-8
+Options -Indexes
+#DirectoryIndex index.php index.html
+# В css вверху добавить <? php header("Content-Type: text/css"); ?>
+#AddType application/x-httpd-php .html .htm .css
